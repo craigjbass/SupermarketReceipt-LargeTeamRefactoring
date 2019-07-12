@@ -1,6 +1,10 @@
-# The Supermarket Receipt Refactoring Kata
+# Continuous Integration with the Supermarket Receipt Refactoring Kata
 
-This is a variation of a popular kata described in http://codekata.com/kata/kata01-supermarket-pricing/. The aim of the exercise is to build automated tests for this code, refactor it, and add a new feature. 
+This is a fork of Emily Bache's https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata with\_tests branch.
+
+The aim of the exercise is to refactor this code as a team, and add a new feature. 
+
+## The Domain
 
 The supermarket has a catalog with different types of products (rice, apples, milk, toothbrushes,...). Each product has a price, and the total price of the shopping cart is the total of all the prices of the items. You get a receipt that details the items you've bought, the total price and any discounts that were applied.
 
@@ -13,11 +17,22 @@ The supermarket runs special deals, e.g.
 
 These are just examples: the actual special deals change each week.
 
-Create some test cases and aim to get good enough code coverage that you feel confident to do some refactoring.
+## The Challenge
 
-When you have good test cases, identify code smells such as Long Method, Innappropriate Intimacy. Apply relevant refactorings.
+You must refactor the code, using the safety of the test suite provided.
 
-When you're confident you can handle this code, implement the new feature described below
+As a team identify code smells such as Long Method, Innappropriate Intimacy. Apply relevant refactorings.
+
+When the team is confident it can handle this code, choose a pair to implement the new feature described below using TDD.
+
+**Rules**
+
+* Split into pairs.
+* When refactoring, use a modified version of TCR; `test && (commit ; push) || revert.`
+* When implementing a feature, use TDD... but make sure to Continuously Integrate!
+* Don't go longer than 3 minutes without running your tests.
+* Push to master.
+* Collaborate to solve merge conflicts.
 
 ## New feature: discounted bundles
 
