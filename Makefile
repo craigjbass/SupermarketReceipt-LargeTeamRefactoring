@@ -5,3 +5,7 @@ test: bundle
 .PHONY: bundle
 bundle:
 	bundle install
+
+.PHONY: tcr
+tcr:
+	./tcr.sh

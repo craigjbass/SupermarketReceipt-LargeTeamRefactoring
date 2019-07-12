@@ -28,11 +28,13 @@ When the team is confident it can handle this code, choose a pair to implement t
 **Rules**
 
 * Split into pairs.
-* When refactoring, use a modified version of TCR; `test && (commit ; push) || revert.`
+* When refactoring, use a modified version of TCR; `test && (commit ; push) || revert.` - you can run `make tcr`
 * When implementing a feature, use TDD... but make sure to Continuously Integrate!
 * Don't go longer than 3 minutes without running your tests.
 * Push to master.
 * Collaborate to solve merge conflicts.
+* Every commit in master should pass all tests.
+* Don't worry about commit messages, that's not what we're doing here.
 
 ## New feature: discounted bundles
 
