@@ -29,15 +29,25 @@ When the team is confident it can handle this code, choose a pair to implement t
 
 * Split into pairs.
 * When refactoring, use a modified version of TCR; `test && (commit ; push) || revert.` - you can run `make tcr`
-* When implementing a feature, use TDD... but make sure to Continuously Integrate!
 * Don't go longer than 3 minutes without running your tests.
 * Push to master.
 * Collaborate to solve merge conflicts.
 * Every commit in master should pass all tests.
 * Don't worry about commit messages, that's not what we're doing here.
 
-## New feature: discounted bundles
+## Details of the Backlog 
 
-The owner of the system has a new feature request. They want to introduce a new kind of special offer - bundles. When you buy all the items in a product bundle
-you get 10% off the total for those items. For example you could make a bundle offer of one toothbrush and one toothpaste. If you then you buy one toothbrush and one toothpaste, the discount will be 10% of €0.99 + €1.79. If you instead buy two toothbrushes and one toothpaste, you get the same discount as if you'd bought only one of each - ie only complete bundles are discounted.
+The owner of the system has a new feature request.
+
+They want to introduce a new kind of special offer - bundles. 
+When you buy all the items in a product bundle you get 10% off the 
+total for those items. 
+
+For example you could make a bundle offer of 
+one toothbrush and one toothpaste. 
+If you then you buy one toothbrush and one toothpaste, 
+the discount will be 10% of €0.99 + €1.79. 
+If you instead buy two toothbrushes and one toothpaste, 
+you get the same discount as if you'd bought 
+only one of each - ie only complete bundles are discounted.
 
